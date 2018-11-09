@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Snake Game</title>
+        <h1 class="title" style="background-color:LightSeaGreen"><marquee direction="right"> Snake Game</marquee></h1>
+         <input type="button" id="reset" value="Play Again" onclick="location.reload();">
+        <style>
+            canvas{
+                display: block;
+                margin-top: 50px;
+                margin-left: 450px; 
+                align-items: center;
+            }
+            h1{
+                color: black;
+               text-align: center;
+            }
+            #reset{
+                margin-top: 50px;
+                margin-left: 950px; 
+                 height: 40px;
+                 width: 90px;
+                 font-style: sans-serif;
+                 position: absolute;
+            }
+            body{
+                background-color: black;
+
+            }
+        </style>
+    </head>
+    <canvas id="snake" margin-top="300px" width="608" height="608"></canvas>
+   
+    <img id="over" src="https://user-images.githubusercontent.com/41412873/48129137-6fa1ea00-e2aa-11e8-8028-16252b055b16.png" style="display:none;"/>
+"
+    <script src="snake2.js"></script>
+</html>
